@@ -1,0 +1,125 @@
+﻿
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background: url('../img/maciphone.png');*/
+    /*background-size: cover;*/
+    padding: 0;
+    margin: 0;
+}
+
+p, ul.p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14pt;
+}
+
+.header-container {
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+}
+
+
+.menu-container {
+    display: flex;
+    height: 300px;
+}
+
+.bmenu-container {
+    flex: 0 0 15%;
+    width: 50%
+}
+
+.menu-image-container {
+    flex: 1;
+    width: 50%;
+}
+
+    .menu-image-container img {
+        height: 300px;
+        width: auto;
+        border: 3px solid #DDD;
+    }
+
+.main-headings {
+    font-family: 'Domine', serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 30pt;
+}
+
+.main-name {
+    margin-top: auto;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Domine', serif;
+    text-transform: uppercase;
+}
+
+    h2:before {
+        content: "[ ";
+    }
+
+    h2:after {
+        content: " ]";
+    }
+
+h4 {
+    font-size: 16pt;
+    letter-spacing:2pt;
+}
+
+.scroll {
+    text-align: center;
+    font-size: large;
+    color: #FFF;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#About, #Services, #Portfolio, #Contact {
+    background-color: #EEE;
+    padding: 40px 400px 20px 400px;
+}
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+    #to-top a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        background: rgba(33,33,33,0.9);
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+        #to-top a b {
+            font-family: 'Domine', serif;
+            letter-spacing:1pt;
+        }
+
+    #to-top a:hover {
+        background: rgba(22,22,22,0.9);
+    }
